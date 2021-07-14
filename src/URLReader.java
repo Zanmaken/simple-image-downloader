@@ -6,10 +6,10 @@ import java.net.URL;
 import java.net.URLConnection;
 
 public class URLReader {
-    URL url;
-    URLConnection urlConnection;
-    BufferedReader bufferedReader;
-    StringBuilder stringBuilder;
+    private URL url;
+    private URLConnection urlConnection;
+    private BufferedReader bufferedReader;
+    private StringBuilder stringBuilder;
 
     public URLReader(URL url){
         this.url = url;
